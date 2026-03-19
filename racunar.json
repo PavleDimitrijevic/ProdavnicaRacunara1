@@ -1,0 +1,28 @@
+{
+  "racunarID": 1,
+  "naziv": "Gaming Beast X2",
+  "cenaPoKomadu": 200000.0,
+  "opis": "Odlican gejming racunar",
+  "tipRacunara": {
+    "tipRacunaraID": 1,
+    "naziv": "Gaming racunar"
+  },
+  "komponente": [
+    {
+      "rb": 1,
+      "naziv": "Ryzen 9 procesor"
+    },
+    {
+      "rb": 2,
+      "naziv": "32GB RAM"
+    },
+    {
+      "rb": 3,
+      "naziv": "RTX 4080 graficka karta"
+    },
+    {
+      "rb": 4,
+      "naziv": "1TB SSD"
+    }
+  ]
+}

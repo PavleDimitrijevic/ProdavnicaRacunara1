@@ -10,7 +10,7 @@ package com.pavledimitrijevic.prodavnicaracunara;
  */
 public class Komponenta {
 
-    private Racunar racunar;
+    private transient Racunar racunar;
     private int rb;
     private String naziv;
 
