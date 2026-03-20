@@ -17,7 +17,7 @@ import org.junit.jupiter.params.provider.CsvSource;
  */
 public class AdministratorTest {
 
-    Administrator administrator;
+    private Administrator administrator;
 
     public void AdministratorTestPrazan() {
         assertNotNull(administrator);
