@@ -3,3 +3,4 @@ nbproject/private/
 nbbuild/
 dist/
 .nb-gradle/
+/nbproject/
