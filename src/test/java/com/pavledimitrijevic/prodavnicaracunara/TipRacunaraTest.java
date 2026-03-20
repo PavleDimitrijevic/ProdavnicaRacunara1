@@ -17,10 +17,12 @@ public class TipRacunaraTest {
 
     private TipRacunara tipRacunara;
 
+    @Test
     public void TipRacunaraTestPrazan() {
         assertNotNull(tipRacunara);
     }
 
+    @Test
     public void TipRacunara() {
         tipRacunara = new TipRacunara(1L, "Gaming racunar");
 

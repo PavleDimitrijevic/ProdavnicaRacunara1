@@ -19,10 +19,12 @@ public class AdministratorTest {
 
     private Administrator administrator;
 
+    @Test
     public void AdministratorTestPrazan() {
         assertNotNull(administrator);
     }
 
+    @Test
     public void AdministratorTest() {
         administrator = new Administrator(1L, "Pavle", "Dimitrijevic", "pavle123", "pavle123");
 
