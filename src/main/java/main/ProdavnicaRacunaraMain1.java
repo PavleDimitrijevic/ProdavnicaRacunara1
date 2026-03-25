@@ -10,11 +10,24 @@ import com.pavledimitrijevic.prodavnicaracunara.Racunar;
 import java.io.FileReader;
 
 /**
+ * Demonstrira postupak deserijalizacije objekta Racunar iz JSON fajla
+ * korišćenjem Gson biblioteke.
+ *
+ * Klasa učitava podatke iz fajla racunar.json, rekonstruiše objekat računara
+ * zajedno sa njegovim komponentama i prikazuje ih na standardnom izlazu.
  *
  * @author PAVLE
  */
 public class ProdavnicaRacunaraMain1 {
 
+    /**
+     * Glavna metoda koja se izvršava prilikom pokretanja programa. Učitava se
+     * JSON fajl racunar.json, vrši se deserijalizacija u objekat tipa Racunar,
+     * nakon čega se podaci o računaru i njegovim komponentama ispisuju na
+     * konzoli.
+     *
+     * @param args argumenti komandne linije (ne koriste se u ovom primeru)
+     */
     public static void main(String[] args) {
         Gson gson = new Gson();
 
