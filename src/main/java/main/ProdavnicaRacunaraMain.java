@@ -13,11 +13,24 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 
 /**
+ * Prikazuje upotrebu klasa Racunar, TipRacunara i Komponenta. U okviru primera
+ * kreira se objekat racunar sa njegovim komponentama i vrši se njegova
+ * serijalizacija u JSON format korišćenjem Gson biblioteke.
+ *
+ * JSON se snima u fajl racunar.json.
  *
  * @author PAVLE
  */
 public class ProdavnicaRacunaraMain {
 
+    /**
+     * Glavna metoda koja se izvršava prilikom pokretanja programa. U okviru
+     * metode kreira se tip računara, zatim objekat računar sa komponentama,
+     * nakon čega se podaci serijalizuju i čuvaju u JSON fajl korišćenjem Gson
+     * biblioteke.
+     *
+     * @param args argumenti komandne linije (ne koriste se u ovom primeru)
+     */
     public static void main(String[] args) {
         TipRacunara tipRacunara = new TipRacunara(1L, "Gaming racunar");
 
